@@ -41,9 +41,15 @@ span {
 .bg_color {
   background-color: #cfe5ff;
 }
+
+.section_bg_color{
+  background-color: #FCFCFC;
+}
+
 .btn_bg_color {
   background-color: #3692ff;
 }
+
 .text_color{
   color: #3692FF;
   font-weight: 700;
@@ -67,13 +73,19 @@ header {
 }
 
 /* main 영역 */
+.br_1{
+  display: block;
+}
+
 .main_content_box {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
   padding-top: 48px;
+  overflow: hidden;
 }
 
 .btn_wrap {
@@ -87,29 +99,29 @@ header {
 }
 
 .img_wrap {
-  width: 100%;
-  overflow: hidden;
   padding-top: 132px;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .img_wrap img {
+  display: block;
   width: 448px;
+  margin: 0 auto;
 }
 
 
 /* hot_item 영역 */
+.br_2{
+  display: none;
+}
+
 .hot_content_box{
   max-width: 988px;
   width: 344px;
   margin: 0 auto;
-  padding-top: 52px;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-top: 52px;
 }
 
 .hot_img{
@@ -133,10 +145,10 @@ header {
   max-width: 988px;
   width: 344px;
   margin: 0 auto;
-  padding-top: 40px;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-top: 40px;
 }
 
 .text_r{
@@ -152,14 +164,10 @@ header {
   max-width: 988px;
   width: 344px;
   margin: 0 auto;
-  padding-top: 52px;
   display: flex;
   justify-content: center;
   flex-direction: column;
-}
-
-.register_img{
-  width: 100%;
+  margin-top: 40px;
 }
 
 

@@ -1,0 +1,176 @@
+/* 태블릿 750px 이상 */
+@media screen and (min-width:744px) {
+  header{
+    padding:10px 24px;
+  }
+
+  /* main */
+  .br_1{
+    display: none;
+  }
+  
+  .main_content_box {
+    padding-top: 84px;
+  }
+
+  .btn_wrap{
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 24px;
+    padding: 12px 124px;
+  }
+
+  .img_wrap{
+    padding-top: 211px;
+  }
+
+  .img_wrap img{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /* hot_item */
+  .br_2{
+    display: none;
+  }
+
+  .hot_content_box,.search_content_box,
+  .register_content_box{
+    width: 696px;
+  }
+
+  .hot_content_box{
+    margin-top: 24px;
+  }
+
+  .search_content_box,
+  .register_content_box{
+    margin-top: 65px;
+  }
+
+
+  /*  article */
+  .article_1{
+    margin-top : 56px;
+  }
+
+  .article_title{
+    padding-top: 201px;
+  }
+
+  .img_wrap_1{
+    padding-top: 217px;
+  }
+
+  /* footer */
+  .footer_wrap{
+    padding:32px 24px 108px 24px;
+  }
+
+  .text_1{
+    padding: 0;
+    order: 0;
+  }
+}
+
+/* pc 1200pc 이상 */
+@media screen and (min-width:1200px) {
+  .header_wrap{
+    justify-content: space-around;
+  }
+
+  /* main */
+  .main_content_box{
+    flex-direction: row;
+    padding-top: 200px;
+    
+  }
+  .title_wrap{
+    max-width: 1110px;
+  }
+
+  .main_title{
+    text-align: left;
+  }
+
+  .br_1{
+    display: block; 
+  }
+
+  .br_2{
+    display: block;
+  }
+
+  .img_wrap{
+    padding: 0;
+    width: 746px;
+  }
+
+  /* hot_item 영역 */
+  .article_content_wrap{
+    padding: 138px 0;
+  }
+
+  .hot_content_box{
+    flex-direction: row;
+    gap: 64px;
+    width: 100%;
+    padding: 0;
+  }
+
+  .img_w{
+    width: 588px;
+  }
+
+  .text_color{
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .text_small_title{
+    font-size: 40px;
+    line-height: 1.4;
+  }
+
+  .text_small_title_1{
+    font-size: 24px;
+    line-height: 32px; 
+  }
+  
+  /* search 영역  */
+  .search_content_box{
+    flex-direction: row-reverse;
+    gap: 64px;
+    width: 100%;
+    padding: 0;
+  }
+  
+  .text_r{
+    letter-spacing: -2px;
+  }
+
+  /* register 영역 */
+  .register_content_box{
+    flex-direction: row;
+    gap: 64px;
+    width: 100%;
+    padding: 0;
+  }
+
+  /* article */
+  .article_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:143px ;
+    text-align: left;
+    width: 1110px;
+    margin: 0 auto;
+    gap: 69px;
+  }
+
+  .img_wrap_1{
+    padding: 0;
+    width: 746px;
+  }
+}
